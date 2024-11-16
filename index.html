@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Delta Executor For PC</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="title" content="Delta Executor For PC" />
+    <meta name="description" content="Delta Executor For PC allows you to run the Delta Executor APK on Windows to execute Roblox scripts, without needing an Android device. Simple, lightweight, and PC-friendly." />
+    <meta name="keywords" content="Delta Executor, PC, Roblox, APK, executor, Roblox scripts, Windows, download, tutorial, source code, build, guide" />
+    <meta name="author" content="Delta Executor Team" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="Delta Executor For PC" />
+    <meta property="og:description" content="Run the Delta Executor APK on Windows, execute Roblox scripts, and enjoy a smooth experience without needing an Android device." />
+    <meta property="og:image" content="https://delta-executor-for-pc.github.io/Banner.webp" />
+    <meta property="og:url" content="https://delta-executor-for-pc.github.io/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://delta-executor-for-pc.github.io/" />
+    <meta property="twitter:title" content="Delta Executor For PC" />
+    <meta property="twitter:description" content="Run the Delta Executor APK on Windows, execute Roblox scripts, and enjoy a smooth experience without needing an Android device." />
+    <meta property="twitter:image" content="https://delta-executor-for-pc.github.io/Banner.webp" />
+
+    <link rel="canonical" href="https://delta-executor-for-pc.github.io/" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Delta Executor For PC" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Delta Executor For PC",
+            "description": "Delta Executor For PC allows you to run the Delta Executor APK on Windows to execute Roblox scripts, without needing an Android device. Simple, lightweight, and PC-friendly.",
+            "operatingSystem": "Windows",
+            "applicationCategory": "UtilitiesApplication",
+            "datePublished": "2024-11-15",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "938",
+              "bestRating": "5",
+              "worstRating": "4"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "softwareVersion": "1.0",
+            "downloadUrl": "https://sourceforge.net/projects/delta-executor-for-pc/",
+            "author": {
+              "@type": "Organization",
+              "name": "Delta Executor Team"
+            },
+            "requirements": "Windows Operating System, Roblox Installation",
+            "softwareHelp": {
+              "@type": "CreativeWork",
+              "url": "#support"
+            },
+            "featureList": [
+              "Easy APK Download",
+              "No Android Device Needed",
+              "Simple Setup",
+              "PC Friendly",
+              "Script Execution",
+              "Detects Roblox Version",
+              "Custom Settings",
+              "Error Logs",
+              "Lightweight",
+              "APK Check",
+              "Command-Line Support"
+            ],
+            "installUrl": "https://sourceforge.net/projects/delta-executor-for-pc/",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "name": "Delta Executor For PC Documentation",
+              "hasPart": [
+                {
+                  "@type": "WebPageElement",
+                  "name": "Introduction",
+                  "description": "Welcome guide and overview of Delta Executor For PC"
+                },
+                {
+                  "@type": "WebPageElement",
+                  "name": "Features",
+                  "description": "Complete feature list of Delta Executor For PC"
+                },
+                {
+                  "@type": "WebPageElement",
+                  "name": "How to Download",
+                  "description": "Step-by-step download and installation guide"
+                },
+                {
+                  "@type": "WebPageElement",
+                  "name": "How to Use",
+                  "description": "Usage instructions for Delta Executor For PC"
+                },
+                {
+                  "@type": "WebPageElement",
+                  "name": "How to Build",
+                  "description": "Instructions for building from source code"
+                },
+                {
+                  "@type": "WebPageElement",
+                  "name": "How to Use Your Own APK",
+                  "description": "Guide for using custom APK files"
+                },
+                {
+                  "@type": "WebPageElement",
+                  "name": "Support",
+                  "description": "Support information and help resources"
+                }
+              ]
+            }
+          }
+    </script>
+</head>
+<style>
+    @font-face {
+        font-family: 'Inter';
+        src: url('/Inter.ttf') format('truetype');
+    }
+
+    html {
+        font-family: 'Inter', sans-serif !important;
+    }
+</style>
+
+<body class="bg-gray-900 text-gray-100">
+    <div class="flex h-screen">
+        <!-- Sidebar -->
+        <div class="border-r border-gray-700 p-4 space-y-4">
+            <div class="flex items-center space-x-2 mb-8">
+                <img src="/DeltaExecutorVector.svg" class="w-8 h-8" alt="Delta Executor Logo">
+                <h1 class="text-xl font-bold">Delta Executor For PC</h1>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="space-y-2">
+                <div class="font-medium text-gray-400 text-sm">GETTING STARTED</div>
+                <a href="#introduction" onclick="showPage('introduction')" class="block py-2 text-gray-300 hover:text-gray-100">👋 Introduction</a>
+                <a href="#features" onclick="showPage('features')" class="block py-2 text-gray-300 hover:text-gray-100">🚀 Features</a>
+
+                <div class="font-medium text-gray-400 text-sm mt-6">HOW TO</div>
+                <a href="#how-to-download" onclick="showPage('how-to-download')" class="block py-2 text-gray-300 hover:text-gray-100">⬇️ How to Download</a>
+                <a href="#how-to-use" onclick="showPage('how-to-use')" class="block py-2 text-gray-300 hover:text-gray-100">💻 How to Use</a>
+                <a href="#how-to-build" onclick="showPage('how-to-build')" class="block py-2 text-gray-300 hover:text-gray-100">🔧 How to Build</a>
+                <a href="#use-your-own-apk" onclick="showPage('use-your-own-apk')" class="block py-2 text-gray-300 hover:text-gray-100">📦 How to Use Your Own APK</a>
+
+                <div class="font-medium text-gray-400 text-sm mt-6">SUPPORT</div>
+                <a href="#support" onclick="showPage('support')" class="block py-2 text-gray-300 hover:text-gray-100">💬 Support</a>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 overflow-auto">
+            <header class="border-b border-gray-700 p-4">
+                <div class="flex items-center justify-between">
+                    <div></div>
+                    <div class="flex items-center space-x-4">
+                        <input type="text" placeholder="Search..." class="bg-gray-800 text-gray-100 px-4 py-2 rounded-md border border-gray-700 focus:outline-none focus:border-blue-500">
+                    </div>
+                </div>
+            </header>
+
+            <main class="p-8 max-w-4xl mx-auto">
+                <!-- Introduction Page -->
+                <div id="introduction" class="page-content">
+                    <article class="prose prose-invert">
+                        <h1 class="text-4xl font-bold mb-8">👋 Introduction</h1>
+                        <p class="text-gray-300 mb-6">
+                            Welcome to <strong>Delta Executor For PC</strong>! This tool lets you run the Delta Executor APK (which was made for Android) on your Windows PC to execute Roblox scripts.
+                        </p>
+                        <p class="text-gray-300 mb-6">
+                            If you've used Delta Executor on Android, it works the same way on PC, but now you don't need an Android device! This program helps you run the APK on Windows without extra hassle.
+                        </p>
+                        <h2 class="text-2xl font-bold mt-8 mb-4">What's inside?</h2>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-300">
+                            <li>This program automatically downloads the Delta Executor APK if it's missing.</li>
+                            <li>It makes sure everything works with Roblox on your PC.</li>
+                            <li>You can run Roblox scripts just like you would on Android, but now directly on your PC.</li>
+                        </ul>
+                        <p class="text-gray-300 mt-6">
+                            Ready to start? Just follow the steps in the next sections to get everything set up!
+                        </p>
+                    </article>
+                </div>
+
+
+                <!-- Features Page -->
+                <div id="features" class="page-content hidden">
+                    <article class="prose prose-invert">
+                        <h1 class="text-4xl font-bold mb-8">🚀 Features</h1>
+                        <p class="text-gray-300 mb-6">
+                            Here are the main features of <strong>Delta Executor For PC</strong>:
+                        </p>
+                        <ul class="list-disc pl-6 space-y-2 text-gray-300">
+                            <li><strong>Easy APK Download</strong> 📥: If the Delta Executor APK is not on your PC, it will automatically download for you.</li>
+                            <li><strong>No Android Device Needed</strong> 📱❌: You don't need an Android phone or emulator to use this.</li>
+                            <li><strong>Simple Setup</strong> 🛠️: The installation is easy and only takes a few steps.</li>
+                            <li><strong>PC Friendly</strong> 💻: It's made to run on Windows PCs, with no extra setup required.</li>
+                            <li><strong>Script Execution</strong> 💡: You can run scripts in Roblox directly from your PC.</li>
+                            <li><strong>Detects Roblox Version</strong> 🔍: It knows which version of Roblox you have installed and works with it.</li>
+                            <li><strong>Custom Settings</strong> ⚙️: You can change some settings if you want to tweak the way it works.</li>
+                            <li><strong>Error Logs</strong> 📜: If something goes wrong, there will be logs to help you figure out what happened.</li>
+                            <li><strong>Lightweight</strong> ⚡: The program uses very little of your PC's resources, so it won't slow things down.</li>
+                            <li><strong>No Changes Required</strong> 🚫: You don't need to modify your Windows PC to use this.</li>
+                            <li><strong>APK Check</strong> ✅: The APK file is checked to make sure it's not corrupted or altered.</li>
+                            <li><strong>Command-Line Support</strong> ⌨️: For advanced users, you can also run the program from the command line.</li>
+                        </ul>
+                    </article>
+                </div>
+
+
+                <!-- How to Download Page -->
+                <div id="how-to-download" class="page-content hidden">
+                    <article class="prose prose-invert">
+                        <h1 class="text-4xl font-bold mb-8">⬇️ How to Download</h1>
+                        <p class="text-gray-300 mb-6">
+                            To get <strong>Delta Executor For PC</strong>, follow these steps:
+                        </p>
+                        <ol class="list-decimal pl-6 space-y-2 text-gray-300">
+                            <li><strong>Visit the SourceForge project:</strong> Navigate to the "Delta Executor For PC" SourceForge project <a href="https://sourceforge.net/projects/delta-executor-for-pc/" target="_blank" class="text-blue-400">here</a>.</li>
+                            <li><strong>Read the source code:</strong> It's always a good idea to first review the source code, but this isn't required.</li>
+                            <li><strong>Download the program:</strong> Click the green "Download" button on the SourceForge page to start your download.</li>
+                            <li><strong>If the download button is not visible:</strong> Go to the "<a href="https://sourceforge.net/projects/delta-executor-for-pc/files/" target="_blank" class="text-blue-400">Files</a>" tab, then download the <code>DeltaExecutor.exe</code> file directly from there.</li>
+                        </ol>
+
+                        <h2 class="text-2xl font-bold mt-8 mb-4">After downloading:</h2>
+                        <ol class="list-decimal pl-6 space-y-2 text-gray-300">
+                            <li><strong>Run the program as administrator:</strong> Right-click on the downloaded file and select <strong>Run as administrator</strong>.</li>
+                            <li><strong>SmartScreen warning?:</strong> If you see a SmartScreen popup, click <strong>More info</strong> and then click <strong>Run anyway</strong>.</li>
+                            <li><strong>Choose your location:</strong> Pick where you want to install the program and click <strong>Install</strong>.</li>
+                            <li><strong>Finish installation:</strong> Once the installation is done, go to the folder where you installed the program and open it.</li>
+                        </ol>
+
+                        <p class="text-gray-300 mt-6">
+                            Now you're ready to use it! 🎉
+                        </p>
+                    </article>
+                </div>
+
+
+                <!-- How to Use Page -->
+                <div id="how-to-use" class="page-content hidden">
+                    <article class="prose prose-invert">
+                        <h1 class="text-4xl font-bold mb-8">🖥️ How to Use</h1>
+                        <p class="text-gray-300 mb-6">
+                            Using <strong>Delta Executor For PC</strong> is simple. Just follow these steps:
+                        </p>
+                        <ol class="list-decimal pl-6 space-y-2 text-gray-300">
+                            <li><strong>Open the program:</strong> After you've installed Delta Executor For PC, open the program.</li>
+                            <li><strong>Open Roblox:</strong> Start Roblox like you usually would.</li>
+                            <li><strong>Click "Refresh":</strong> In the Delta Executor program, click the <strong>Refresh</strong> button.</li>
+                            <li><strong>Delta Executor will open:</strong> After you click Refresh, Delta Executor will open and connect itself with Roblox.</li>
+                        </ol>
+
+                        <p class="text-gray-300 mt-6">
+                            That's it! You can now use Delta Executor with Roblox, just like on Android. 👍
+                        </p>
+                    </article>
+                </div>
+
+
+                <!-- How to Build Page -->
+                <div id="how-to-build" class="page-content hidden">
+                    <article class="prose prose-invert">
+                        <h1 class="text-4xl font-bold mb-8">🔧 How to Build</h1>
+                        <p class="text-gray-300 mb-6">
+                            After you download Delta Executor For PC, you'll also get the <strong>source code</strong>. If you want to build it yourself, follow these steps:
+                        </p>
+                        <ol class="list-decimal pl-6 space-y-2 text-gray-300">
+                            <li><strong>Make sure you have Rust:</strong> You need to have <strong>Rust</strong> installed on your PC to build the program. You can get it from <a href="https://www.rust-lang.org/" target="_blank" class="text-blue-500">rust-lang.org</a>.</li>
+                            <li><strong>Open the source code folder:</strong> After downloading, go to the folder where you saved the Delta Executor source code.</li>
+                            <li><strong>Build the program:</strong> Open a terminal or command prompt in that folder and run the build command using <strong>Rust</strong>. This will turn the source code into a working executable.</li>
+                            <li><strong>Done:</strong> After the build finishes, you'll have your own version of Delta Executor For PC ready to use.</li>
+                        </ol>
+                        <p class="text-gray-300 mt-6">
+                            That's it! You've built the program yourself. 🎉
+                        </p>
+                    </article>
+                </div>
+
+
+                <!-- How to Use Your Own APK Page -->
+                <div id="use-your-own-apk" class="page-content hidden">
+                    <article class="prose prose-invert">
+                        <h1 class="text-4xl font-bold mb-8">📦 How to Use Your Own APK</h1>
+                        <p class="text-gray-300 mb-6">
+                            If you want to use your own APK (instead of the one Delta Executor usually downloads), follow these steps:
+                        </p>
+                        <ol class="list-decimal pl-6 space-y-2 text-gray-300">
+                            <li><strong>Get your APK:</strong> Make sure you have the APK file you want to use.</li>
+                            <li><strong>Put it in the right folder:</strong> Place the APK in the same folder where you have the Delta Executor program (the .exe file).</li>
+                            <li><strong>No download needed:</strong> Once you put your APK in that folder, Delta Executor will use it and will not download another one.</li>
+                        </ol>
+
+                        <p class="text-gray-300 mt-6">
+                            That's it! Your custom APK will now be used every time you run Delta Executor. 🔄
+                        </p>
+                    </article>
+                </div>
+
+
+                <!-- Support Page -->
+                <div id="support" class="page-content hidden">
+                    <article class="prose prose-invert">
+                        <h1 class="text-4xl font-bold mb-8">💬 Support</h1>
+                        <p class="text-gray-300 mb-6">
+                            If you need help with anything, follow these steps:
+                        </p>
+                        <ol class="list-decimal pl-6 space-y-2 text-gray-300">
+                            <li><strong>Get Support:</strong> Join our <strong>Discord server</strong>, message our bot in the <strong>#bot</strong> channel, type the command <code>/support</code> to ask for help.</li>
+                            <li><strong>Check Troubleshooting:</strong> Look in our <strong>#troubleshooting</strong> channel in Discord for solutions to common problems.</li>
+                            <li><strong>Read the FAQ:</strong> If you're unsure about something, check the <strong>#faq</strong> channel for answers to frequently asked questions.</li>
+                        </ol>
+
+                        <p class="text-gray-300 mt-6">
+                            We're here to help! 😊
+                        </p>
+                    </article>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <script>
+        // Function to show selected page and hide others
+        function showPage(pageId) {
+            // Hide all pages
+            document.querySelectorAll('.page-content').forEach(page => {
+                page.classList.add('hidden');
+            });
+
+            // Show selected page
+            document.getElementById(pageId).classList.remove('hidden');
+
+            // Update active state in navigation
+            document.querySelectorAll('nav a').forEach(link => {
+                if (link.getAttribute('onclick').includes(pageId)) {
+                    link.classList.add('text-blue-400');
+                    link.classList.remove('text-gray-300');
+                    link.classList.remove('hover:text-gray-100');
+                } else {
+                    link.classList.remove('text-blue-400');
+                    link.classList.add('text-gray-300');
+                    link.classList.add('hover:text-gray-100');
+                }
+            });
+
+            // Update URL hash for bookmarking
+            window.location.hash = pageId;
+        }
+
+        // Handle initial page load and browser navigation
+        function handleInitialLoad() {
+            const hash = window.location.hash.slice(1) || 'introduction';
+            showPage(hash);
+        }
+
+        // Listen for hash changes
+        window.addEventListener('hashchange', handleInitialLoad);
+
+        // Handle initial page load
+        handleInitialLoad();
+    </script>
+</body>
+
+</html>
